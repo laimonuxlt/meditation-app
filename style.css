@@ -31,11 +31,11 @@
   height: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
 
-.time-dispaly {
+.time-display {
   position: absolute;
   bottom: 10%;
   color: white;
@@ -54,7 +54,7 @@ video {
 .sound-picker button {
   color: white;
   width: 30%;
-  height: 10;
+  height: 10%;
   background: none;
   border: 2px solid whitesmoke;
   cursor: pointer;
